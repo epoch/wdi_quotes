@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WdiQuotes</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="container">
+    
+    <div id="index">
+      <div id="quote-list">
+      </div>
+    </div>
+
+    <div id="show">
+      <div id="quote-wrapper">
+        <div id="box"> 
+          <div class="quote">wdi quotes</div>  
+          <div class="author">dt</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <%= javascript_include_tag "application" %>
+  <script>
+    $(document).ready(function() {
+      
+    });
+  </script>
+</body>
+</html>
