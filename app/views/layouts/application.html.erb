@@ -27,8 +27,10 @@
   
   <%= javascript_include_tag "application" %>
   <script>
-    $(document).ready(function() {
-      
+
+    $(document).ready(function() {      
+      App.router = new App.Router();
+      Backbone.history.start();
     });
   </script>
 </body>

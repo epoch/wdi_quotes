@@ -1,4 +1,5 @@
-  html, body { height: 100%; margin: 0;}
+  
+  html, body { height: 100%; margin: 0; }
   #container { display: flex; height: 100%; flex-flow: row; }
   #index { flex: 1; background: white; }
   #show { flex: 2; background: pink; font-size: 4em; height: 100%;}
@@ -7,3 +8,6 @@
   #quote-list > div { background: lightgray; padding: 5px; margin-bottom: 5px;}
   #quote-wrapper { display: flex; align-items: center; justify-content: center; height: 100%; text-align: center; padding: 0 2.5em; }
   #quote-wrapper .author { font-size: .5em; }
+  
+  #quote-list > .selected { background: yellow; }
+
